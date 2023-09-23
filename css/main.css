@@ -224,6 +224,7 @@ footer{
 }
 .footer_right form input[placeholder]{
     padding-left: 30px;
+    color: white;
 }
 .footer_right p{
     font-size: 20px;
@@ -391,5 +392,21 @@ footer{
     }
     .footer_apps_link{
         display: none;
+    }
+    .footer_left{
+        flex-wrap: wrap;
+        gap: 86px;
+    }
+    .footer_right form input{
+        padding: 20px 35%;
+    }
+    .footer_right form{
+        width: 20%;
+    }
+    .footer_right{
+        margin: 0 auto;
+    }
+    .footer_right p{
+        text-align: center;
     }
 }
